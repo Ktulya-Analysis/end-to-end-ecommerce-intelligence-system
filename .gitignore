@@ -1,4 +1,18 @@
+# Python cache
 __pycache__/
 .ipynb_checkpoints/
+
+# Environment
 .env
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large datasets
+data/
 *.csv
+*.xlsx

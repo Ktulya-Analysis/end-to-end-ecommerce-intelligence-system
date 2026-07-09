@@ -95,9 +95,6 @@ WHERE order_approved_at
 <
 order_purchase_timestamp;
 
--- FINDINGS:
--- Expected:
--- 0
 
 
 -- Check 3:
@@ -147,14 +144,8 @@ FROM staging.olist_customers_dataset
 WHERE customer_unique_id IS NULL;
 
 
--- FINDINGS:
--- Result:
---
--- Interpretation:
---
--- Business Impact:
---
--- Status:
+
+
 
 -- =========================================================
 -- CUSTOMERS : DUPLICATE VALIDATION
@@ -217,16 +208,6 @@ ON c.customer_id = o.customer_id
 WHERE o.customer_id IS NULL;
 
 
--- FINDINGS:
--- Result:
---
--- Interpretation:
---
--- Business Impact:
---
--- Status:
-
-
 
 ---- =========================================================
 --what we discovered earlier:
@@ -238,7 +219,7 @@ WHERE o.customer_id IS NULL;
 -- Meaning:
 --Some people appear multiple times.
 
--- =========================================================
+
 -- =========================================================
 -- CUSTOMERS : BUSINESS VALIDATION 1
 -- Purpose:

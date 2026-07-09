@@ -1,5 +1,5 @@
 -- =====================================
--- ORDERS TABLE CREATIONs
+-- ORDERS TABLE CREATION
 -- =====================================
 
 CREATE TABLE staging.olist_orders_dataset
@@ -64,7 +64,7 @@ freight_value NUMERIC
 
 
 -- =====================================================
--- SELLERS : TABLE CREATION
+-- SELLERS TABLE CREATION
 -- =====================================================
 
 CREATE TABLE staging.olist_sellers_dataset
@@ -73,4 +73,47 @@ seller_id TEXT,
 seller_zip_code_prefix INT,
 seller_city TEXT,
 seller_state TEXT
+);
+
+-- =====================================================
+-- PAYMENTS : TABLE CREATION
+-- =====================================================
+
+CREATE TABLE staging.olist_order_payments_dataset
+(
+order_id TEXT,
+payment_sequential INT,
+payment_type TEXT,
+payment_installments INT,
+payment_value NUMERIC
+);
+
+
+-- =====================================================
+-- REVIEWS : TABLE CREATION
+-- =====================================================
+
+CREATE TABLE staging.olist_order_reviews_dataset
+(
+review_id TEXT,
+order_id TEXT,
+review_score INT,
+review_comment_title TEXT,
+review_comment_message TEXT,
+review_creation_date TIMESTAMP,
+review_answer_timestamp TIMESTAMP
+);
+
+
+-- =====================================================
+-- GEOLOCATION : TABLE CREATION
+-- =====================================================
+
+CREATE TABLE staging.olist_geolocation_dataset
+(
+geolocation_zip_code_prefix INT,
+geolocation_lat NUMERIC,
+geolocation_lng NUMERIC,
+geolocation_city TEXT,
+geolocation_state TEXT
 );

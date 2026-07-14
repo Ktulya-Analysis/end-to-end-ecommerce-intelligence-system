@@ -55,7 +55,7 @@ The workflow separates data ingestion, transformation, analytics modeling, and v
 | **Query Language** | SQL |
 | **Business Intelligence** | Power BI |
 | **Version Control** | Git, GitHub |
-| **Dataset** | Olist Brazilian E-Commerce Dataset |
+| **Dataset** | Olist E-Commerce Dataset |
 | **Architecture** | Layered Data Warehouse (Raw → Staging → Analytics) |
 | **Data Modeling** | Fact & Dimension Modeling, Analytics Marts |
 | **Analytics** | Exploratory Data Analysis (EDA), Business KPI Development |

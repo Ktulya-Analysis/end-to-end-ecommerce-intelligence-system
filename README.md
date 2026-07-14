@@ -89,7 +89,7 @@ The platform includes a **6-page interactive Power BI dashboard** designed to pr
 
 ## 📊 Dashboard Overview
 
-![Dashboard Overview](images/dashboard_overview.png)
+
 
 ---
 

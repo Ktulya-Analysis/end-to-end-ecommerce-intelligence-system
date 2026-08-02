@@ -83,13 +83,9 @@ The platform focuses on the following business objectives:
 - Translate analytical findings into actionable business recommendations that support revenue optimization, operational efficiency, customer experience improvement, and strategic decision-making.
 
 
-# 📈 Dashboard Preview
+# 📈 Dashboard
 
 The platform includes a **6-page interactive Power BI dashboard** designed to provide executive and operational visibility across key areas of marketplace performance. Each analytics module focuses on a distinct business domain while supporting cross-filtering, drill-through navigation, and KPI-driven decision-making.
-
-## 📊 Dashboard Overview
-
-
 
 ---
 

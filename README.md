@@ -1,9 +1,14 @@
 # 📊 E-Commerce Intelligence Platform
 
-An end-to-end **Business Intelligence and Analytics Platform** built on the **Olist Brazilian E-Commerce Dataset (100K+ orders)** to transform raw marketplace data into executive-ready business insights through SQL analytics, exploratory data analysis, dimensional modeling, and interactive Power BI dashboards.
+### Project Highlights
 
-The project follows a real-world analytics architecture by implementing a layered PostgreSQL data warehouse (**Raw → Staging → Analytics**), designing business-oriented analytical marts, and developing interactive dashboards for **Executive, Customer, Product, Seller, Delivery, and Revenue Analytics**.
-
+- End-to-end **Business Intelligence & Analytics Platform** built on the Olist Brazilian E-Commerce Dataset **(100K+ orders)**.
+- Transforms raw marketplace data into business-ready insights using **PostgreSQL, SQL, Star Schema, and Power BI**.
+- Implements a layered analytics architecture (Raw → Staging → Intermediate → Analytics → Data Marts).
+- Develops subject-oriented **data marts** for efficient business reporting and analysis.
+- Delivers **6 interactive Power BI dashboards** covering Executive, Customer, Product, Seller, Delivery, and Revenue Analytics.
+- Enables KPI monitoring, business performance analysis, and data-driven decision-making through interactive visualizations.
+  
 # 🔄 End-to-End Project Workflow
 
 The project follows a real-world analytics workflow that mirrors the architecture commonly adopted in modern Business Intelligence teams. Raw marketplace data is progressively transformed into validated analytical datasets before being consumed by executive dashboards and business reports.

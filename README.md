@@ -38,28 +38,9 @@ The project follows a real-world analytics workflow that mirrors the architectur
                                    ▼
            Business Insights & Strategic Recommendations
 ```
-
-The workflow separates data ingestion, transformation, analytics modeling, and visualization into independent layers, creating a scalable architecture that supports reliable business reporting and future analytical enhancements.
-
----
-# 🛠️ Tech Stack
-| Category | Technologies |
-|----------|--------------|
-| **Database** | PostgreSQL |
-| **Query Language** | SQL |
-| **Business Intelligence** | Power BI (DAX) |
-| **Version Control** | Git, GitHub |
-| **Dataset** | Olist Brazilian E-Commerce Dataset |
-| **Data Warehouse Architecture** | Layered Data Warehouse (Staging → Intermediate → Analytics) |
-| **Data Modeling** | Star Schema, Fact & Dimension Modeling, Data Marts |
-| **Data Validation** | Volume Validation, Null Validation, Duplicate Validation, Domain Validation, Relationship Validation, Business Rule Validation |
-| **Business Analytics** | KPI Development, Business Metrics, Data Quality Validation, Executive Reporting |
-
 # 🎯 Business Problem
 
-E-commerce marketplaces generate large volumes of transactional data across customers, products, sellers, payments, deliveries, and customer reviews. However, this data is distributed across multiple operational tables, making it difficult to obtain a unified view of business performance.
-
-Key business challenges addressed in this project include:
+E-commerce marketplaces generate large data across customers, products, sellers, payments, deliveries, and customer reviews , making it difficult to obtain a unified view of business performance.
 
 - Monitoring executive KPIs through a centralized analytics platform.
 - Understanding customer behavior, retention, and purchasing patterns.
@@ -129,6 +110,22 @@ Financial performance monitoring through revenue trends, quarterly contribution,
 ![Revenue Analytics](images/RevenueAnalytics.png)
 ---
 
+The workflow separates data ingestion, transformation, analytics modeling, and visualization into independent layers, creating a scalable architecture that supports reliable business reporting and future analytical enhancements.
+
+---
+# 🛠️ Tech Stack
+| Category | Technologies |
+|----------|--------------|
+| **Database** | PostgreSQL |
+| **Query Language** | SQL |
+| **Business Intelligence** | Power BI (DAX) |
+| **Version Control** | Git, GitHub |
+| **Dataset** | Olist Brazilian E-Commerce Dataset |
+| **Data Warehouse Architecture** | Layered Data Warehouse (Staging → Intermediate → Analytics) |
+| **Data Modeling** | Star Schema, Fact & Dimension Modeling, Data Marts |
+| **Data Validation** | Volume Validation, Null Validation, Duplicate Validation, Domain Validation, Relationship Validation, Business Rule Validation |
+| **Business Analytics** | KPI Development, Business Metrics, Data Quality Validation, Executive Reporting |
+---
 # 📊 Executive Business KPIs
 
 The dashboard consolidates business performance into executive-level Key Performance Indicators (KPIs) that provide a comprehensive overview of marketplace health.

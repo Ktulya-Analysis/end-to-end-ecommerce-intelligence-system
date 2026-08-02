@@ -45,8 +45,6 @@ The project follows a real-world analytics workflow that mirrors the architectur
 ```
 # 🎯 Business Problem
 
-E-commerce marketplaces generate large data across customers, products, sellers, payments, deliveries, and customer reviews , making it difficult to obtain a unified view of business performance.
-
 - Monitoring executive KPIs through a centralized analytics platform.
 - Understanding customer behavior, retention, and purchasing patterns.
 - Evaluating product and seller performance to identify key revenue drivers.

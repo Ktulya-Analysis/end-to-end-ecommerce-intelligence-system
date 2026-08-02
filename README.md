@@ -57,30 +57,28 @@ The workflow separates data ingestion, transformation, analytics modeling, and v
 
 # 🎯 Business Problem
 
-E-commerce marketplaces generate vast amounts of transactional data across customers, products, sellers, payments, deliveries, and customer reviews. While this data captures every stage of the customer journey, it is typically distributed across multiple operational tables, making it difficult for business teams to obtain a unified view of marketplace performance.
+E-commerce marketplaces generate large volumes of transactional data across customers, products, sellers, payments, deliveries, and customer reviews. However, this data is distributed across multiple operational tables, making it difficult to obtain a unified view of business performance.
 
-Without a centralized analytics platform, decision-makers face challenges in monitoring executive KPIs, evaluating seller performance, understanding customer purchasing behavior, identifying high-performing product categories, tracking delivery efficiency, and measuring overall revenue performance. As a result, strategic decisions often rely on fragmented reports rather than integrated business intelligence.
+Key business challenges addressed in this project include:
 
-This project addresses these challenges by designing and implementing an end-to-end **E-Commerce Intelligence Platform** that transforms raw marketplace data into business-ready analytical models, interactive dashboards, and actionable insights. By combining SQL-based data warehousing, exploratory data analysis, dimensional modeling, and Power BI reporting, the platform enables stakeholders to monitor business performance, identify operational opportunities, and support data-driven decision-making through a centralized analytics solution.
+- Monitoring executive KPIs through a centralized analytics platform.
+- Understanding customer behavior, retention, and purchasing patterns.
+- Evaluating product and seller performance to identify key revenue drivers.
+- Measuring revenue trends, geographic sales distribution, and marketplace growth.
+- Tracking delivery performance, freight costs, and operational efficiency.
+- Eliminating fragmented reporting by transforming raw operational data into business-ready analytical models.
 
 # 🎯 Business Objectives
 
-The primary objective of this project is to design and implement a scalable business intelligence platform that converts raw e-commerce transaction data into actionable insights for executive and operational decision-making.
-
-The platform focuses on the following business objectives:
-
-- Develop an end-to-end analytics pipeline to transform raw marketplace data into business-ready analytical models.
-- Build a centralized PostgreSQL data warehouse using layered data modeling (Raw → Staging → Analytics) to ensure reliable and scalable reporting.
-- Monitor executive business performance through key performance indicators including revenue, orders, customers, freight cost, and average order value.
-- Analyze customer, product, seller, delivery, and revenue performance through dedicated analytics modules to uncover operational trends and business opportunities.
-- Evaluate marketplace performance by identifying high-performing products, sellers, customer segments, and delivery patterns using descriptive analytics.
-- Design interactive Power BI dashboards that enable executives and business users to explore insights through drill-through navigation, dynamic filtering, and cross-visual analysis.
-- Translate analytical findings into actionable business recommendations that support revenue optimization, operational efficiency, customer experience improvement, and strategic decision-making.
-
+- Design a layered analytics pipeline to transform raw marketplace data into business-ready analytical models.
+- Build a PostgreSQL data warehouse using a **Star Schema** and subject-oriented **data marts** for scalable analytics.
+- Monitor marketplace performance through executive KPIs, including revenue, orders, customers, average order value, freight cost, and delivery metrics.
+- Analyze customer, product, seller, revenue, and delivery performance to identify business trends and operational opportunities.
+- Develop interactive Power BI dashboards that enable dynamic filtering, drill-through analysis, and KPI monitoring for data-driven decision-making.
 
 # 📈 Dashboard
 
-The platform includes a **6-page interactive Power BI dashboard** designed to provide executive and operational visibility across key areas of marketplace performance. Each analytics module focuses on a distinct business domain while supporting cross-filtering, drill-through navigation, and KPI-driven decision-making.
+The platform includes a **6-page interactive Power BI dashboard**.Each analytics module focuses on a distinct business domain while supporting cross-filtering, drill-through navigation, and KPI-driven decision-making.
 
 ---
 

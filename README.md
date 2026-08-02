@@ -93,60 +93,51 @@ The platform includes a **6-page interactive Power BI dashboard** designed to pr
 
 ---
 
-<details>
-<summary><b>📊 Executive Analytics</b></summary>
+## 📊 Executive Analytics
 
 Executive overview of marketplace performance with high-level business KPIs, revenue trends, product performance, and regional sales distribution.
 
 ![Executive Analytics](images/ExecutiveOverview.png)
 
-</details>
+---
 
-<details>
-<summary><b>👥 Customer Analytics</b></summary>
+## 👥 Customer Analytics
 
 Customer behavior analysis including customer distribution, repeat customer metrics, customer lifetime analysis, and geographic customer insights.
 
 ![Customer Analytics](images/CustomerAnalytics.png)
 
-</details>
+---
 
-<details>
-<summary><b>📦 Product Analytics</b></summary>
+## 📦 Product Analytics
 
 Evaluation of product category performance through revenue contribution, order volume, product distribution, and product content quality.
 
 ![Product Analytics](images/productAnalytics.png)
 
-</details>
+---
 
-<details>
-<summary><b>🏪 Seller Analytics</b></summary>
+## 🏪 Seller Analytics
 
 Marketplace seller performance including seller revenue, seller distribution, seller segmentation, and seller performance comparison.
 
 ![Seller Analytics](images/SellerAnalytics.png)
 
-</details>
+---
 
-<details>
-<summary><b>🚚 Delivery Analytics</b></summary>
+## 🚚 Delivery Analytics
 
 Logistics performance analysis covering shipping speed distribution, delivery duration, delivery delays, and operational delivery metrics.
 
 ![Delivery Analytics](images/DeliveryAnalytics.png)
 
-</details>
+---
 
-<details>
-<summary><b>💰 Revenue Analytics</b></summary>
+## 💰 Revenue Analytics
 
 Financial performance monitoring through revenue trends, quarterly contribution, average order value, freight cost analysis, and revenue comparison.
 
 ![Revenue Analytics](images/RevenueAnalytics.png)
-
-</details>
-
 ---
 
 # 📊 Executive Business KPIs

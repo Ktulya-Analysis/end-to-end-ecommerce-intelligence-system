@@ -314,9 +314,6 @@ ecommerce-intelligence-system/
 │   ├── delivery_analytics.png
 │   └── revenue_analytics.png
 │
-├── notebooks/
-│   └── Ecommerce_EDA.ipynb
-│
 ├── sql/
 │   ├── 01_staging/
 │   ├── 02_validation/

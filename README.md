@@ -4,9 +4,6 @@ An end-to-end **Business Intelligence and Analytics Platform** built on the **Ol
 
 The project follows a real-world analytics architecture by implementing a layered PostgreSQL data warehouse (**Raw → Staging → Analytics**), designing business-oriented analytical marts, and developing interactive dashboards for **Executive, Customer, Product, Seller, Delivery, and Revenue Analytics**.
 
-By integrating data engineering, business intelligence, and analytics, the platform enables stakeholders to monitor marketplace performance, evaluate operational efficiency, understand customer and seller behavior, measure revenue performance, and support data-driven strategic decision-making.
-
-
 # 🔄 End-to-End Project Workflow
 
 The project follows a real-world analytics workflow that mirrors the architecture commonly adopted in modern Business Intelligence teams. Raw marketplace data is progressively transformed into validated analytical datasets before being consumed by executive dashboards and business reports.
@@ -46,19 +43,17 @@ The workflow separates data ingestion, transformation, analytics modeling, and v
 
 ---
 # 🛠️ Tech Stack
-
 | Category | Technologies |
 |----------|--------------|
-| **Programming Language** | Python |
-| **Data Analysis** | Pandas, NumPy |
 | **Database** | PostgreSQL |
 | **Query Language** | SQL |
-| **Business Intelligence** | Power BI |
+| **Business Intelligence** | Power BI (DAX) |
 | **Version Control** | Git, GitHub |
-| **Dataset** | Olist E-Commerce Dataset |
-| **Architecture** | Layered Data Warehouse (Raw → Staging → Analytics) |
-| **Data Modeling** | Fact & Dimension Modeling, Analytics Marts |
-| **Analytics** | Exploratory Data Analysis (EDA), Business KPI Development |
+| **Dataset** | Olist Brazilian E-Commerce Dataset |
+| **Data Warehouse Architecture** | Layered Data Warehouse (Staging → Intermediate → Analytics) |
+| **Data Modeling** | Star Schema, Fact & Dimension Modeling, Data Marts |
+| **Data Validation** | Volume Validation, Null Validation, Duplicate Validation, Domain Validation, Relationship Validation, Business Rule Validation |
+| **Business Analytics** | KPI Development, Business Metrics, Data Quality Validation, Executive Reporting |
 
 # 🎯 Business Problem
 
@@ -154,28 +149,6 @@ The dashboard consolidates business performance into executive-level Key Perform
 | **Average Delivery Days** | Evaluate overall delivery efficiency. |
 | **Average Delivery Delay** | Monitor delivery performance against expected timelines. |
 | **Late Delivery Rate** | Measure the proportion of delayed deliveries across the marketplace. |
-
-
-# 📒 Exploratory Data Analysis
-
-Exploratory Data Analysis (EDA) was performed using **Python, Pandas, and NumPy** to understand the characteristics of the Olist Brazilian E-Commerce dataset before designing the analytics pipeline. The objective was to validate data quality, understand business entities, identify potential analytical opportunities, and support the design of business-oriented data models.
-
-The EDA process included:
-
-- Data understanding and business domain exploration.
-- Data quality assessment and missing value analysis.
-- Duplicate record validation.
-- Distribution analysis of customers, sellers, products, and orders.
-- Revenue and order pattern analysis.
-- Customer purchasing behavior analysis.
-- Product category exploration.
-- Delivery performance exploration.
-- Business KPI identification for dashboard development.
-- Analytical observations used to support SQL modeling and Power BI dashboard design.
-
-📓 **EDA Notebook**
-
-➡️ `notebooks/Ecommerce_EDA.ipynb`
 
 ---
 

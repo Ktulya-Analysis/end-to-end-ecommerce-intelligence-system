@@ -1,4 +1,4 @@
-# 📊 E-Commerce Intelligence Platform
+# E-Commerce Intelligence Platform
 
 ### Project Highlights
 
@@ -9,7 +9,7 @@
 - Delivers **6 interactive Power BI dashboards** covering Executive, Customer, Product, Seller, Delivery, and Revenue Analytics.
 - Enables KPI monitoring, business performance analysis, and data-driven decision-making through interactive visualizations.
   
-# 🔄 End-to-End Project Workflow
+#  End-to-End Project Workflow
 
 The project follows a real-world analytics workflow that mirrors the architecture commonly adopted in modern Business Intelligence teams. Raw marketplace data is progressively transformed into validated analytical datasets before being consumed by executive dashboards and business reports.
 
@@ -43,7 +43,7 @@ The project follows a real-world analytics workflow that mirrors the architectur
                                    ▼
            Business Insights & Strategic Recommendations
 ```
-# 🎯 Business Problem
+#  Business Problem
 
 - Monitoring executive KPIs through a centralized analytics platform.
 - Understanding customer behavior, retention, and purchasing patterns.
@@ -52,7 +52,7 @@ The project follows a real-world analytics workflow that mirrors the architectur
 - Tracking delivery performance, freight costs, and operational efficiency.
 - Eliminating fragmented reporting by transforming raw operational data into business-ready analytical models.
 
-# 🎯 Business Objectives
+# Business Objectives
 
 - Design a layered analytics pipeline to transform raw marketplace data into business-ready analytical models.
 - Build a PostgreSQL data warehouse using a **Star Schema** and subject-oriented **data marts** for scalable analytics.
@@ -60,13 +60,13 @@ The project follows a real-world analytics workflow that mirrors the architectur
 - Analyze customer, product, seller, revenue, and delivery performance to identify business trends and operational opportunities.
 - Develop interactive Power BI dashboards that enable dynamic filtering, drill-through analysis, and KPI monitoring for data-driven decision-making.
 
-# 📈 Dashboard
+#  Dashboard
 
 The platform includes a **6-page interactive Power BI dashboard**.Each analytics module focuses on a distinct business domain while supporting cross-filtering, drill-through navigation, and KPI-driven decision-making.
 
 ---
 
-## 📊 Executive Analytics
+##  Executive Analytics
 
 Executive overview of marketplace performance with high-level business KPIs, revenue trends, product performance, and regional sales distribution.
 
@@ -74,7 +74,7 @@ Executive overview of marketplace performance with high-level business KPIs, rev
 
 ---
 
-## 👥 Customer Analytics
+##  Customer Analytics
 
 Customer behavior analysis including customer distribution, repeat customer metrics, customer lifetime analysis, and geographic customer insights.
 
@@ -82,7 +82,7 @@ Customer behavior analysis including customer distribution, repeat customer metr
 
 ---
 
-## 📦 Product Analytics
+##  Product Analytics
 
 Evaluation of product category performance through revenue contribution, order volume, product distribution, and product content quality.
 
@@ -90,7 +90,7 @@ Evaluation of product category performance through revenue contribution, order v
 
 ---
 
-## 🏪 Seller Analytics
+##  Seller Analytics
 
 Marketplace seller performance including seller revenue, seller distribution, seller segmentation, and seller performance comparison.
 
@@ -98,7 +98,7 @@ Marketplace seller performance including seller revenue, seller distribution, se
 
 ---
 
-## 🚚 Delivery Analytics
+##  Delivery Analytics
 
 Logistics performance analysis covering shipping speed distribution, delivery duration, delivery delays, and operational delivery metrics.
 
@@ -106,7 +106,7 @@ Logistics performance analysis covering shipping speed distribution, delivery du
 
 ---
 
-## 💰 Revenue Analytics
+##  Revenue Analytics
 
 Financial performance monitoring through revenue trends, quarterly contribution, average order value, freight cost analysis, and revenue comparison.
 
@@ -116,7 +116,7 @@ Financial performance monitoring through revenue trends, quarterly contribution,
 The workflow separates data ingestion, transformation, analytics modeling, and visualization into independent layers, creating a scalable architecture that supports reliable business reporting and future analytical enhancements.
 
 ---
-# 🛠️ Tech Stack
+#  Tech Stack
 | Category | Technologies |
 |----------|--------------|
 | **Database** | PostgreSQL |
@@ -129,7 +129,7 @@ The workflow separates data ingestion, transformation, analytics modeling, and v
 | **Data Validation** | Volume Validation, Null Validation, Duplicate Validation, Domain Validation, Relationship Validation, Business Rule Validation |
 | **Business Analytics** | KPI Development, Business Metrics, Data Quality Validation, Executive Reporting |
 ---
-# 📊 Executive Business KPIs
+#  Executive Business KPIs
 
 The dashboard consolidates business performance into executive-level Key Performance Indicators (KPIs) that provide a comprehensive overview of marketplace health.
 
@@ -150,7 +150,7 @@ The dashboard consolidates business performance into executive-level Key Perform
 
 ---
 
-# 🗄️ SQL Analytics Pipeline
+#  SQL Analytics Pipeline
 
 The project implements a layered SQL analytics architecture that transforms raw transactional data into validated, business-ready analytical datasets. Each layer has a clearly defined responsibility, ensuring scalability, maintainability, and reliable business reporting.
 
@@ -182,7 +182,7 @@ The SQL pipeline consists of the following stages:
 
 The layered architecture separates data ingestion, transformation, analytics, and reporting, closely following enterprise Business Intelligence development practices.
 
-# 🧱 Data Warehouse Architecture
+#  Data Warehouse Architecture
 
 The project follows a layered PostgreSQL data warehouse architecture that separates data ingestion, transformation, analytics modeling, and reporting into independent components. This design improves data quality, simplifies maintenance, and provides a scalable foundation for business intelligence reporting.
 
@@ -226,7 +226,7 @@ This architecture follows modern Business Intelligence design principles by sepa
 
 ---
 
-# 📊 Analytics Marts
+#  Analytics Marts
 
 To support domain-specific business analysis, the project organizes analytical datasets into dedicated business marts. Each mart is designed around a specific functional area, enabling focused reporting while maintaining a consistent enterprise data model.
 
@@ -251,7 +251,7 @@ The analytics marts are supported by a dimensional data model consisting of:
 This business-oriented data model enables efficient aggregation, simplified reporting, and scalable dashboard development while supporting multiple analytical perspectives across the marketplace.
 
 
-# 💡 Key Business Insights
+#  Key Business Insights
 
 The integrated analytics platform uncovered several business patterns across customers, products, sellers, revenue, and delivery operations that can support strategic decision-making.
 
@@ -279,7 +279,7 @@ The integrated analytics platform uncovered several business patterns across cus
 - Revenue growth, freight costs, and average order value exhibit different temporal patterns, enabling continuous monitoring of marketplace profitability and operational performance.
 
 
-# 🚀 Business Recommendations
+#  Business Recommendations
 
 Based on the analytical findings, the following business strategies are recommended:
 
@@ -291,7 +291,7 @@ Based on the analytical findings, the following business strategies are recommen
 - Track executive KPIs through interactive Power BI dashboards to support faster and more informed business decision-making.
 - Leverage the analytics platform as a centralized decision-support system for monitoring marketplace performance and identifying future business opportunities.
 
-# 📂 Repository Structure
+#  Repository Structure
 
 ```text
 ecommerce-intelligence-system/
@@ -333,19 +333,19 @@ ecommerce-intelligence-system/
 └── requirements.txt
 ```
 
-# 📁 Project Files
+#  Project Files
 
 | File | Description |
 |------|-------------|
-| 📓 **EDA Notebook** | Exploratory Data Analysis, data understanding, missing value analysis, and business insights. |
-| 🗄️ **SQL Scripts** | Database creation, data validation, staging layer, analytics marts, KPI generation, and business queries. |
-| 📊 **Power BI Dashboard** | Interactive multi-page business intelligence dashboard with executive and operational analytics. |
-| 📑 **Presentation** | Business presentation summarizing project objectives, architecture, analytics, insights, and recommendations. |
-| 📚 **Documentation** | Data model, architecture, data dictionary, and project documentation. |
+|  **EDA Notebook** | Exploratory Data Analysis, data understanding, missing value analysis, and business insights. |
+|  **SQL Scripts** | Database creation, data validation, staging layer, analytics marts, KPI generation, and business queries. |
+|  **Power BI Dashboard** | Interactive multi-page business intelligence dashboard with executive and operational analytics. |
+|  **Presentation** | Business presentation summarizing project objectives, architecture, analytics, insights, and recommendations. |
+|  **Documentation** | Data model, architecture, data dictionary, and project documentation. |
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 The current implementation establishes a scalable analytics foundation that can be extended with additional Business Intelligence capabilities.
 
@@ -359,7 +359,7 @@ Potential future enhancements include:
 
 ---
 
-# 🎯 Business Impact
+#  Business Impact
 
 This project demonstrates how modern Business Intelligence and analytics can transform raw marketplace data into actionable business insights by:
 
@@ -372,7 +372,7 @@ This project demonstrates how modern Business Intelligence and analytics can tra
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Kanishka Tulya**
 

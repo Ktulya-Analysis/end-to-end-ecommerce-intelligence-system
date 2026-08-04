@@ -16,10 +16,7 @@ The project follows a real-world analytics workflow that mirrors the architectur
 ```text
                     Olist Brazilian E-Commerce Dataset
                                    │
-                                   ▼
-                    Exploratory Data Analysis (Python)
-                                   │
-                                   ▼
+                                   ▼             
                  Data Validation, Cleaning & Transformation
                                    │
                                    ▼

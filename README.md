@@ -375,4 +375,3 @@ This project demonstrates how modern Business Intelligence and analytics can tra
 
 **Data Analytics | Business Intelligence | SQL | PostgreSQL | Python | Power BI**
 
-If you found this project interesting or useful, consider giving the repository a ⭐.

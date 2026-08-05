@@ -14,7 +14,7 @@
 The project follows a real-world analytics workflow that mirrors the architecture commonly adopted in modern Business Intelligence teams. Raw marketplace data is progressively transformed into validated analytical datasets before being consumed by executive dashboards and business reports.
 
 ```text
-                    Olist Brazilian E-Commerce Dataset
+                    Olist Brazilian E-Commerce Dataset (1.56M+)
                                    │
                                    ▼             
                  Data Validation, Cleaning & Transformation

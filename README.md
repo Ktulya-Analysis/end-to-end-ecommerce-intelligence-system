@@ -4,7 +4,7 @@
 
 - End-to-end **Business Intelligence & Analytics Platform** using **(100K+ orders)**.
 - Business-ready insights using **PostgreSQL, SQL, Star Schema, and Power BI**.
-- Implemented layered analytics architecture (Raw → Staging → Intermediate → Analytics → Data Marts).
+- Layered analytics architecture (Raw → Staging → Intermediate → Analytics → Data Marts).
 - Develops subject-oriented **data marts** for efficient business reporting and analysis.
 - Delivers **6 interactive Power BI dashboards** covering Executive, Customer, Product, Seller, Delivery, and Revenue Analytics.
 - Enables KPI monitoring, business performance analysis, and data-driven decision-making through interactive visualizations.

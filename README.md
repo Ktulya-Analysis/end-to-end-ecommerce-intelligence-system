@@ -3,7 +3,7 @@
 ### Project Highlights
 
 - End-to-end analytics pipeline on 1.56M+ e-commerce records across 11 raw datasets.
-- Business-ready insights using **PostgreSQL, SQL, Star Schema, and Power BI**.
+- Business insights using **PostgreSQL, SQL, Star Schema, and Power BI**.
 - Layered analytics architecture (Raw → Staging → Intermediate → Analytics → Data Marts).
 - Develops subject-oriented **data marts** .
 - Delivers **6 interactive Power BI dashboards** covering Executive, Customer, Product, Seller, Delivery and Revenue Analytics.

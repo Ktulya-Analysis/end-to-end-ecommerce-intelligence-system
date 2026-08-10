@@ -55,7 +55,7 @@ The project follows a real-world analytics workflow that mirrors the architectur
 - Build a PostgreSQL data warehouse using a **Star Schema** and subject-oriented **data marts** for scalable analytics.
 - Monitor marketplace performance through executive KPIs, including revenue, orders, customers, average order value, freight cost, and delivery metrics.
 - Analyze customer, product, seller, revenue, and delivery performance to identify business trends and operational opportunities.
-- Develop interactive Power BI dashboards that enable dynamic filtering, drill-through analysis, and KPI monitoring for data-driven decision-making.
+- Develop interactive Power BI dashboards that enable dynamic filtering, drill-through analysis, and KPI monitoring.
 
 #  Dashboard
 

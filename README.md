@@ -51,7 +51,7 @@ The project follows a real-world analytics workflow that mirrors the architectur
 
 # Business Objectives
 
-- Design a layered analytics pipeline to transform raw marketplace data into business-ready analytical models.
+- Layered analytics pipeline to transform raw marketplace data into business-ready analytical models.
 - Build a PostgreSQL data warehouse using a **Star Schema** and subject-oriented **data marts** for scalable analytics.
 - Monitor marketplace performance through executive KPIs, including revenue, orders, customers, average order value, freight cost, and delivery metrics.
 - Analyze customer, product, seller, revenue, and delivery performance to identify business trends and operational opportunities.
